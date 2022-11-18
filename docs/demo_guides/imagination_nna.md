@@ -1,4 +1,4 @@
-# 颖脉 NNA 部署示例
+# 颖脉 NNA
 
 Paddle Lite 已支持 Imagination NNA 的预测部署。
 其接入原理是与之前华为 Kirin NPU 类似，即加载并分析 Paddle 模型，将 Paddle 算子转成 Imagination DNN APIs 进行网络构建，在线生成并执行模型。
@@ -46,7 +46,7 @@ Paddle Lite 已支持 Imagination NNA 的预测部署。
 
 您可以查阅[ NNAdapter 算子支持列表](https://github.com/PaddlePaddle/Paddle-Lite/blob/develop/lite/kernels/nnadapter/converter/all.h)获得各算子在不同新硬件上的最新支持信息。
 
-**不经过 NNAdapter 标准算子转换，而是直接将 Paddle 算子转换成 `Imagination NNA IR` 的方案可点击[链接](https://paddle-lite.readthedocs.io/zh/release-v2.9/demo_guides/imagination_nna.html)**。
+**不经过 NNAdapter 标准算子转换，而是直接将 Paddle 算子转换成 `Imagination NNA IR` 的方案可点击[链接](https://www.paddlepaddle.org.cn/lite/develop/demo_guides/imagination_nna.html)**。
 
 ## 参考示例演示
 
