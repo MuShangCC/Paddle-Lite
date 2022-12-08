@@ -31,9 +31,9 @@ Paddle Lite 支持 [ARM Cortex-A 系列处理器](https://en.wikipedia.org/wiki/
 
 ### ARM CPU 环境准备及示例程序
 
-- Android: [Android 工程示例](../demo_guides/android_app_demo)
-- IOS: [IOS 工程示例](../demo_guides/ios_app_demo)
-- Linux(ARM): [Linux(ARM) 工程示例](../demo_guides/linux_arm_demo)
+- Android: [Android apps](../demo_guides/android_app_demo)
+- iOS: [iOS apps](../demo_guides/ios_app_demo)
+- Linux: [Linux apps](../demo_guides/linux_arm_demo)
 
 ## X86 CPU
 
@@ -44,7 +44,7 @@ Paddle Lite 当前支持 `AVX` 及 `FMA` 指令集的 X86 CPU，正在完善 `SS
 
 ### X86 CPU 环境准备及示例程序
 
-- [Paddle Lite 使用 X86 预测部署](../demo_guides/x86)
+- [x86](../demo_guides/x86)
 
 ## 移动端 GPU
 
@@ -55,7 +55,7 @@ Paddle Lite 支持多种移动端 GPU，包括 ARM Mali、Qualcomm Adreno、Appl
 
 ### 移动端 GPU 环境准备及示例程序
 
-- [Paddle Lite 使用 OpenCL 预测部署](../demo_guides/opencl)
+- [OpenCL](../demo_guides/opencl)
 
 ## 昆仑芯 (kunlunxin) XPU
 
@@ -65,7 +65,7 @@ Paddle Lite 支持昆仑芯 XPU，支持列表如下：
 
 ### 昆仑芯 (kunlunxin) XPU 环境准备及示例程序
 
-- [Paddle Lite 使用昆仑芯 XPU 预测部署](../demo_guides/kunlunxin_xpu)
+- [昆仑芯 XPU](../demo_guides/kunlunxin_xpu)
 
 ## 昆仑芯 (kunlunxin) XTCL
 
@@ -75,7 +75,7 @@ Paddle Lite 支持 昆仑芯 (kunlunxin) XTCL，支持列表如下：
 
 ### 昆仑芯 (kunlunxin) XTCL 环境准备及示例程序
 
-- [Paddle Lite 使用昆仑芯 XTCL 预测部署](../demo_guides/kunlunxin_xtcl)
+- [昆仑芯 XTCL](../demo_guides/kunlunxin_xtcl)
 
 ## 华为 (Huawei) 麒麟 NPU
 
@@ -92,7 +92,7 @@ Paddle Lite 支持华为达芬奇架构麒麟 NPU，支持列表如下：
 
 ### 华为 (Huawei) 麒麟 NPU 环境准备及示例程序
 
-- [Paddle Lite 使用华为麒麟 NPU 预测部署](../demo_guides/huawei_kirin_npu)
+- [华为麒麟 NPU](../demo_guides/huawei_kirin_npu)
 
 ## 华为 (Huawei) 昇腾 NPU
 
@@ -110,27 +110,17 @@ Paddle Lite 已支持华为昇腾 NPU（Ascend310、Ascend710和Ascend910）在 
 
 ### 华为 (Huawei) 昇腾 NPU 环境准备及示例程序
 
-- [Paddle Lite 使用华为昇腾 NPU 预测部署](../demo_guides/huawei_ascend_npu)
+- [华为昇腾 NPU](../demo_guides/huawei_ascend_npu)
 
-## 瑞芯微 (Rockchip) NPU
+## Intel OpenVINO
 
-Paddle Lite 支持 瑞芯微 (Rockchip) NPU，支持列表如下：
-- 支持芯片：RK1808, RK1806，暂不支持 RK3399Pro
-- 支持设备：RK1808/1806 EVB，TB-RK1808S0
-
-### 瑞芯微 (Rockchip) NPU 环境准备及示例程序
-
-- [Paddle Lite 使用瑞芯微 NPU 预测部署](../demo_guides/rockchip_npu)
-
-## 英特尔 (Intel) OpenVINO
-
-Paddle Lite 支持英特尔 OpenVINO 预测部署
+Paddle Lite 支持 Intel OpenVINO 预测部署
 - 支持设备:
   - CPU, CPU 型号可查看 OpenVINO [官方数据](https://github.com/openvinotoolkit/openvino#supported-hardware-matrix)
 
-### 英特尔 (Intel) OpenVINO 示例程序
+### Intel OpenVINO 示例程序
 
-- [Paddle Lite 使用英特尔 OpenVINO 预测部署](../demo_guides/intel_openvino)
+- [Intel OpenVINO](../demo_guides/intel_openvino)
 
 ## Android NNAPI
 
@@ -139,7 +129,7 @@ Paddle Lite 支持 Android NNAPI，支持列表如下：
 
 ### Android NNAPI 环境准备及示例程序
 
-- [Paddle Lite 使用 Android NNAPI 预测部署](../demo_guides/android_nnapi)
+- [Android NNAPI](../demo_guides/android_nnapi)
 
 ## 联发科 (MediaTek) APU
 
@@ -149,7 +139,7 @@ Paddle Lite 支持 联发科 (MediaTek) APU，支持列表如下：
 
 ### 联发科 (MediaTek) APU 环境准备及示例程序
 
-- [Paddle Lite 使用联发科 APU 预测部署](../demo_guides/mediatek_apu)
+- [联发科 APU](../demo_guides/mediatek_apu)
 
 ## 芯原 TIM-VX
 
@@ -158,16 +148,7 @@ Paddle Lite 支持 芯原 TIM-VX，支持列表如下：
 
 ### 芯原 TIM-VX 环境准备及示例程序
 
-- [Paddle Lite 使用 芯原 TIM-VX 预测部署](../demo_guides/verisilicon_timvx)
-
-## 晶晨（Amlogic）NPU
-
-Paddle Lite 支持 晶晨（Amlogic）NPU, 支持列表如下：
-- 支持芯片：C308X，A311D，S905D3(Android 版本)
-
-### 晶晨（Amlogic）NPU 环境准备及示例程序
-
-- [Paddle Lite 使用 Amlogic NPU 预测部署](../demo_guides/amlogic_npu)
+- [芯原 TIM-VX](../demo_guides/verisilicon_timvx)
 
 ## 颖脉 (Imagination) NNA
 
@@ -177,7 +158,7 @@ Paddle Lite 支持 颖脉 (Imagination) NNA，支持列表如下：
 
 ### 颖脉 (Imagination) NNA 环境准备及示例程序
 
-- [Paddle Lite 使用颖脉 NNA 预测部署](../demo_guides/imagination_nna)
+- [颖脉 NNA](../demo_guides/imagination_nna)
 
 ## 高通 (Qualcomm) QNN
 
@@ -186,7 +167,7 @@ Paddle Lite 支持 高通 QNN，支持列表如下：
 
 ### 高通 (Qualcomm) QNN 环境准备及示例程序
 
-- [Paddle Lite 使用高通 QNN 预测部署](../demo_guides/qualcomm_qnn)
+- [高通 QNN](../demo_guides/qualcomm_qnn)
 
 ## 寒武纪 (Cambricon) MLU
 
@@ -195,7 +176,7 @@ Paddle Lite 支持 寒武纪 (Cambricon) MLU，支持列表如下：
 
 ### 寒武纪 (Cambricon) MLU 环境准备及示例程序
 
-- [Paddle Lite 使用寒武纪 MLU 预测部署](../demo_guides/cambricon_mlu)
+- [寒武纪 MLU](../demo_guides/cambricon_mlu)
 
 ## 亿智 (Eeasytech) NPU
 
@@ -205,4 +186,4 @@ Paddle Lite 支持 亿智 (Eeasytech) NPU，支持列表如下：
 
 ### 亿智 (Eeasytech) NPU 环境准备及示例程序
 
-- [Paddle Lite 使用亿智 NPU 预测部署](../demo_guides/eeasytech_npu)
+- [亿智 NPU](../demo_guides/eeasytech_npu)
